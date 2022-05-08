@@ -1,87 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<!-- Boxicons -->
-	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-
-	<!-- My CSS -->
-	<link rel="stylesheet" href="style.css">
-
-	<title>Agriculture Information Management System</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="container">
+
+        
+
+        <p class="center">We are suggested to fill up this form</p>
+
+        <div class="form">
+            <h1 class="center">User KYC</h1>
+            <form action="">
+                <div class="detail">
+                    <div class="margin">
+                    <h2> A. Personal Details</h2>
+                    <input type="text" placeholder="First name">
+                    <input type="text" placeholder="Middle Name">
+                    <input type="text" placeholder="Last Name"><br>
+                </div>
+
+                  <p> Nationality <input type="text" name="" id=""></p> 
+                  <p>  Date of Birth <input type="text"><br></p>
+                    <div>
+                        <div class="margin">
+                            Gender <br>
+                            <input type="radio" id="MALE" name="gender">Male
+                            <input type="radio" id="female" name="gender" >Female
+                            <input type="radio" id="Others" name="gender">Others
+                        
+                        </div>
+                   
+                        <div>
+                           Martial Status <br>
+
+                            <input type="radio" id="married" name="status">Married
+                            <input type="radio" id="Single" name="status" >Single
+                        </div>
+                 
+                       <p> Total family Member <input type="text"></p>
+                    </div>
+                    <h2>B. Address </h2>
+                    <h3>Current Address</h3>
+                    <div class="margin" >
+                    Provience <input type="text">
+                    District <input type="text"> 
+                </div>
+                
+             <div class="margin" >
+                    Municipality / Rural Municipality <input type="text">
+                    Ward NO. <input type="text">
+                </div>
+                   
+
+                    <h3> Permanent Address </h3>
+                    <div class="margin space">
+                     Provience <input type="text">
+                    District <input type="text">
+                </div>
+                
+                <div class="margin">
+                    Municipality / Rural Municipality <input type="text">
+                    Ward NO. <input type="text">
+                    </div>
+
+                  <h3>C. Contact Deatils </h3>  
+
+                   <p> Phone Number <input type="text"></p>
+                   <p>E-mail address <input type="text"></p> 
+                </div>
+                    <div class="button">
+
+                        <button class="right margin"> Cancel</button>
+                        <button class="right margin"> Save</button>
+                    </div>
 
 
-	
-	<section id="sidebar">
-		<a href="#" class="brand">
-			<i class='bx bxs-leaf'></i>
-			<span class="text">AIMS</span>
-		</a>
-		<ul class="side-menu top">
-			<li class="active">
-				<a href="#">
-					<i class='bx bxs-dashboard' ></i>
-					<span class="text">Dashboard</span>
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					<i class='bx bxs-shopping-bag-alt' ></i>
-					<span class="text">Crops Specification</span>
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					<i class='bx bxs-doughnut-chart' ></i>
-					<span class="text">Farmers Specification</span>
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					<i class='bx bxs-message-dots' ></i>
-					<span class="text">Message</span>
-				</a>
-			</li>
-			
-		</ul>
-		<ul class="side-menu">
-			<li>
-				<a href="#">
-					<i class='bx bxs-cog' ></i>
-					<span class="text">Settings</span>
-				</a>
-			</li>
-			<li>
-				<a href="#" class="logout">
-					<i class='bx bxs-log-out-circle' ></i>
-					<span class="text">Logout</span>
-				</a>
-			</li>
-		</ul>
-	</section>
+                
+        </div>
+        </form>
 
-	<section id="content">
-		
-		<nav>
-			<i class='bx bx-menu' ></i>
-			
-		</a>
-			<a href="#" class="profile">
-				
-				
-			</a>
-		</nav>
-		
-
-	
-	</section>
-	
-	
-
-	<script src="script.js"></script>
+    </div>
 </body>
+
 </html>
